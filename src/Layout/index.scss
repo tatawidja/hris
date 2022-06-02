@@ -1,0 +1,245 @@
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.trigger:hover {
+    color: #1890ff;
+}
+
+.logo_content {
+    border-bottom: 1px solid;
+    border-bottom-color: #F4F7FE;
+}
+
+.logo {
+    display: flex;
+    margin: 16px;
+    color: #4318FF;
+    
+}
+
+.logo_text {
+    margin-left: 10px;
+}
+
+.logo_name1 {
+    font-weight: bold;
+}
+
+.logo .logo-icon {
+    color: #e96f81;
+    padding-right: 2px;
+}
+
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed !important;
+    overflow: hidden;
+    height: 100%;
+}
+
+.upgrade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.grid_upgrade {
+    width: 150px;
+    height: 150px;
+    background: rgba($color: #f6dfa9, $alpha: 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bulat {
+    width: 110px;
+    height: 110px;
+    border: 24px solid;
+    border-color: #fbdc92;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: -40%;
+    margin-left: -40%;
+}
+.bulat_1 {
+    width: 155px;
+    height: 155px;
+    border: 10px solid;
+    border-color: #fbdc92;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: -55%;
+    margin-left: -55%;
+}
+.bulat_2 {
+    width: 175px;
+    height: 175px;
+    border: 10px solid;
+    border-color: #fbdc92;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: -55%;
+    margin-left: -55%;
+}
+
+.text_up {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    color: #1B2559;
+    font-weight: 600;
+}
+
+.button_up {
+    border-radius: 10px !important;
+    background: linear-gradient(161deg, #FFD572 , #FEBD38) !important;
+    color: #fff !important;
+    border: none !important;
+    margin-top: 10px !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+}
+
+.pro {
+    font-weight: bold;
+}
+
+
+.header {
+    background: #F4F7FE !important;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name_user {
+    color: #707EAE;
+    font-weight: 700;
+}
+.name_title {
+    color: #2B3674;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
+.header_right {
+    display: flex;
+    align-items: center;
+    .input {
+        border-radius: 5px !important;
+        background: #fff !important;
+        border: none !important;
+        width: 300px !important;
+    }
+    
+    .user {
+        width: 35px;
+        height: 35px;
+        background: linear-gradient(#FFD572, #FEBD38);
+        margin: 0 2px 0 10px;
+        border-radius: 100%;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user span {
+        font-size: 12px;
+        font-weight: 600;
+        color: #fff;
+    }
+}
+
+.header_phone {
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content:space-between;
+    padding: 0 10px;
+    align-items: center;
+}
+
+
+
+.ant-layout-header {
+    position: relative;
+}
+
+.ant-breadcrumb {
+    line-height: 60px !important;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 66px;
+}
+
+.header-right-wrapper {
+    position: absolute !important;
+    right: 0;
+    top: 0;
+}
+
+.avatar {
+    margin-right: 20px !important;
+}
+
+.ant-badge {
+    margin-right: 20px !important;
+    .anticon:hover {
+        color: #42b983;
+        cursor: pointer;
+    }
+
+}
+
+.ant-badge:hover {
+    animation: scale_animate .5s;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+}
+
+
+
+@keyframes scale_animate {
+    0% {
+        transform: scale(1)
+    }
+    20% {
+        transform: scale(0.8)
+    }
+    70% {
+        transform: scale(1.6)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+.content {
+    padding: 0 !important;
+    background-color: #F4F7FE !important;
+    overflow: scroll;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+
+.content::-webkit-scrollbar {
+    width: 0 !important;
+}
