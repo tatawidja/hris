@@ -1,0 +1,22 @@
+
+.contai {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .title {
+        font-size: 24px;
+        color: #2B3674;
+        font-weight: 700;
+    }
+    .button {
+        background: linear-gradient(to right, #868CFF, #4318FF);
+        font-size: 12px;
+        font-weight: 600;
+        color: #fff;
+        border-radius: 10px;
+        border: none;
+        margin-top: 20px;
+    }
+}
